@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tahoma','Arial';
+}
+.parent{
+    width: 900px;
+    margin: 40px auto;
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 10ox;
+
+}
+/* locall storage */
+.parent h1.localHedear{
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    color: #009688;
+    text-align: center;
+}
+.parent .inputContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.parent input{
+
+    border: none;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 45%;
+    font-size: 20px;
+}
+.parent input:focus{
+    outline: none;
+}
+.parent .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.parent .buttons span{
+    background-color: #009688;
+    text-align: center;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.parent .results{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border: 4px dashed #eee;
+    text-align: center;
+
+}
+.parent .results span span{
+    font-weight: bold;
+    color: #009688;
+}
+.parent .results span .keys{
+    display: block;
+}
+/* cookies */
+
+.parent h1.cookiesHeader{
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    color: #795548;
+    text-align: center;
+}
+.parent .buttons.cookies span{
+    background-color: #795548;
+    text-align: center;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.parent .resultsCookies{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border: 4px dashed #eee;
+    text-align: center;
+
+}
+.parent .resultsCookies span span{
+    font-weight: bold;
+    color: #795548;
+}
+.parent .resultsCookies span .keys{
+    display: block;
+}
+.showResult{
+    display: block;
+}
